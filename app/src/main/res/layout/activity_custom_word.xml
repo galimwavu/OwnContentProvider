@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.martin.owncontentprovider.Custom_word">
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eng_name"
+        android:id="@+id/eng_name_view2" />
+    <EditText
+        android:id="@+id/eng_name_text2"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:inputType="text" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eng_meaning"
+        android:id="@+id/eng_meaning_view2" />
+    <EditText
+        android:id="@+id/eng_meaning_text2"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:inputType="text" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lug_name"
+        android:id="@+id/lug_name_view2" />
+    <EditText
+        android:id="@+id/lug_name_text2"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:inputType="text" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lug_meaning"
+        android:id="@+id/lug_meaning_view2" />
+    <EditText
+        android:id="@+id/lug_meaning_text2"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:inputType="text" />
+
+    <Button
+        android:text="@string/add_words"
+        android:id="@+id/btnAdd2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickAddTitle"/>
+    <Button
+        android:text="@string/back"
+        android:id="@+id/bckBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBack"/>
+
+</LinearLayout>

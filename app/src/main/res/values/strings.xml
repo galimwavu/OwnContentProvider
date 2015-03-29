@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Eng_Lug dictionary</string>
+    <string name="search">Search</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="eng_name">English Name</string>
+    <string name="eng_meaning">English meaning</string>
+    <string name="lug_name">Luganda Name</string>
+    <string name="lug_meaning">Luganda Meaning</string>
+
+    <string name="add_word">add word</string>
+    <string name="add_words">add new words</string>
+    <string name="back">Back</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_custom_word">Custom_word</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
